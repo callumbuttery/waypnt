@@ -8,7 +8,11 @@ export default {
     './components/**/*.tsx',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'login': "url('assets/images/login.jpg')",
+      }
+    },
   },
   plugins: [],
 }
